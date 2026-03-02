@@ -1,6 +1,14 @@
 # Mango Paradise VS Light
 
-Visual Studio inspired light theme for VS Code.
+A Visual Studio-inspired light theme for VS Code.
+
+This theme is inspired by the colors and general appearance of the Mango Paradise theme from Visual Studio.
+
+Not affiliated with or endorsed by Microsoft.
+
+## License
+
+MIT. See [LICENSE](./LICENSE).
 
 ## Install locally (without publishing)
 

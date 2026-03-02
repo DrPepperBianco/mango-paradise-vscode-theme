@@ -3,7 +3,7 @@
   "displayName": "Mango Paradise VS Light",
   "description": "A Visual Studio Mango Paradise inspired light theme for VS Code.",
   "version": "0.0.1",
-  "publisher": "prohn-local",
+  "publisher": "drpepperbianco",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -20,3 +20,4 @@
     ]
   }
 }
+
