@@ -4,6 +4,15 @@
   "description": "A Visual Studio Mango Paradise inspired light theme for VS Code.",
   "version": "0.0.1",
   "publisher": "drpepperbianco",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrPepperBianco/mango-paradise-vscode-theme.git"
+  },
+  "homepage": "https://github.com/DrPepperBianco/mango-paradise-vscode-theme#readme",
+  "bugs": {
+    "url": "https://github.com/DrPepperBianco/mango-paradise-vscode-theme/issues"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },

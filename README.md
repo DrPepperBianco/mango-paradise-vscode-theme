@@ -8,7 +8,7 @@ Not affiliated with or endorsed by Microsoft.
 
 ## License
 
-MIT. See [LICENSE](./LICENSE).
+MIT. See [LICENSE](https://github.com/DrPepperBianco/mango-paradise-vscode-theme/blob/main/LICENSE).
 
 ## Install locally (without publishing)
 
@@ -28,3 +28,23 @@ vsce package
 Then install the resulting `.vsix` via:
 
 `Extensions: Install from VSIX...`
+
+### Install `vsce`
+
+With npm (global):
+
+```powershell
+npm install -g @vscode/vsce
+```
+
+Check installation:
+
+```powershell
+vsce --version
+```
+
+Alternative without global install:
+
+```powershell
+npx @vscode/vsce --version
+```

@@ -35,19 +35,19 @@ function Test-CommandExists {
     return [bool](Get-Command $Command -ErrorAction SilentlyContinue)
 }
 
-$useGlobalVsce = (-not $UseNpx) -and (Test-CommandExists -Command "vsce")
+$useGlobalVsce = (-not $UseNpx) -and (Test-CommandExists -Command "vsce.cmd")
 
 if ($useGlobalVsce) {
-    Write-Host "Using global vsce..." -ForegroundColor Cyan
-    & vsce package --out $vsixPath
+    Write-Host "Using global vsce.cmd..." -ForegroundColor Cyan
+    & cmd /c vsce.cmd package --out $vsixPath
 }
 else {
-    if (-not (Test-CommandExists -Command "npm")) {
-        throw "Neither 'vsce' nor 'npm' was found. Install Node.js/npm or global vsce."
+    if (-not (Test-CommandExists -Command "npx.cmd")) {
+        throw "Neither 'vsce.cmd' nor 'npx.cmd' was found. Install Node.js/npm or global vsce."
     }
 
-    Write-Host "Using npx @vscode/vsce..." -ForegroundColor Cyan
-    & npx --yes @vscode/vsce package --out $vsixPath
+    Write-Host "Using npx.cmd @vscode/vsce..." -ForegroundColor Cyan
+    & cmd /c npx.cmd --yes @vscode/vsce package --out $vsixPath
 }
 
 if (-not (Test-Path $vsixPath)) {
