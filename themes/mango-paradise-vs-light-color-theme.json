@@ -19,6 +19,7 @@
     "editorBracketMatch.border": "#D96F1D99",
 
     "activityBar.background": "#F6DFC4",
+    "activityBar.border": "#AD8458",
     "activityBar.foreground": "#5B371A",
     "activityBar.inactiveForeground": "#876246",
     "activityBar.activeBorder": "#AD8458",
@@ -27,12 +28,20 @@
     "activityBarBadge.foreground": "#FFF8EE",
 
     "sideBar.background": "#FDFAF6",
+    "sideBar.border": "#AD8458",
     "sideBar.foreground": "#5A3A1F",
+    "sideBarTitle.background": "#F6DFC4",
+    "sideBarTitle.foreground": "#6A3F1D",
+    "sideBarTitle.border": "#AD8458",
     "sideBarSectionHeader.background": "#F6DFC4",
+    "sideBarSectionHeader.border": "#AD8458",
     "sideBarSectionHeader.foreground": "#6A3F1D",
     "list.hoverBackground": "#E8D2B8",
     "list.activeSelectionBackground": "#F1CBA099",
     "list.activeSelectionForeground": "#4D2E16",
+    "list.focusOutline": "#71C5D9",
+    "list.inactiveFocusOutline": "#AD8458",
+    "list.inactiveSelectionBackground": "#E8D2B8",
 
     "titleBar.activeBackground": "#F1CBA0",
     "titleBar.activeForeground": "#000000",
