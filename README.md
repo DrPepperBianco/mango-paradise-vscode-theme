@@ -1,4 +1,4 @@
-# Mango Paradise VS Light
+# Mango Paradise Inspired Light
 
 A Visual Studio-inspired light theme for VS Code.
 
@@ -15,7 +15,7 @@ MIT. See [LICENSE](./LICENSE).
 1. Open this folder in VS Code.
 2. Press `F5` to run an Extension Development Host.
 3. In the new window, run `Preferences: Color Theme`.
-4. Select `Mango Paradise VS Light`.
+4. Select `Mango Paradise Inspired Light`.
 
 ## Optional: package as VSIX
 

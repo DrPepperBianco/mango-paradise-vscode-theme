@@ -1,6 +1,6 @@
 {
   "name": "mango-paradise-vs-light",
-  "displayName": "Mango Paradise VS Light",
+  "displayName": "Mango Paradise Inspired Light",
   "description": "A Visual Studio Mango Paradise inspired light theme for VS Code.",
   "version": "0.0.1",
   "publisher": "drpepperbianco",
@@ -13,7 +13,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Mango Paradise VS Light",
+        "label": "Mango Paradise Inspired Light",
         "uiTheme": "vs",
         "path": "./themes/mango-paradise-vs-light-color-theme.json"
       }
